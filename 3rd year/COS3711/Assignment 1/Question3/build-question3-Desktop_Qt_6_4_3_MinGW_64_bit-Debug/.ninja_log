@@ -1,0 +1,100 @@
+# ninja log v5
+20	1553	7372942547289299	question3_autogen/timestamp	3ac2cef48b1c57ba
+20	1553	7372942547289299	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+20	1553	7372942547289299	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+20	1553	7372942547289299	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+1585	3946	7372942575788585	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+1561	6199	7372942598365080	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+1555	6352	7372942599934585	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+1594	6468	7372942601061323	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+1569	6782	7372942604201390	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+1577	7189	7372942608140436	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+7189	8343	7372942619662528	question3.exe	270080e7481d5c83
+89	1077	7372948369884103	question3_autogen/timestamp	3ac2cef48b1c57ba
+89	1077	7372948369884103	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+89	1077	7372948369884103	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+89	1077	7372948369884103	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+1093	3329	7372948394746119	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+1082	6138	7372948422826423	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+1078	6175	7372948423236554	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+1098	6313	7372948424605976	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+1089	6728	7372948428689909	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+1085	6799	7372948429468449	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+6799	7645	7372948437871444	question3.exe	270080e7481d5c83
+83	531	7372948487862350	question3_autogen/timestamp	3ac2cef48b1c57ba
+83	531	7372948487862350	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+83	531	7372948487862350	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+83	531	7372948487862350	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+560	2648	7372948509086248	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+542	4461	7372948527058299	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+546	4569	7372948528297304	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+565	4615	7372948528746210	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+550	5097	7372948533532367	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+555	5212	7372948534678949	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5213	6047	7372948543005076	question3.exe	270080e7481d5c83
+111	591	7372951305465564	question3_autogen/timestamp	3ac2cef48b1c57ba
+111	591	7372951305465564	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+111	591	7372951305465564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+111	591	7372951305465564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+619	2847	7372951327999482	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+606	4894	7372951348463368	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+602	4904	7372951348627016	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+623	4960	7372951349114928	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+610	5492	7372951354439003	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+614	5693	7372951356488981	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5693	6413	7372951363622790	question3.exe	270080e7481d5c83
+86	568	7372956987710117	question3_autogen/timestamp	3ac2cef48b1c57ba
+86	568	7372956987710117	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+86	568	7372956987710117	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+86	568	7372956987710117	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+593	2687	7372957008862448	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+581	4464	7372957026630361	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+597	4562	7372957027608227	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+577	4578	7372957027807127	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+584	5155	7372957033571772	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+588	5182	7372957033738094	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5183	6123	7372957043128180	question3.exe	270080e7481d5c83
+93	556	7372958359819290	question3_autogen/timestamp	3ac2cef48b1c57ba
+93	556	7372958359819290	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+93	556	7372958359819290	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+93	556	7372958359819290	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+586	2623	7372958380498604	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+572	4696	7372958401180915	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+590	4891	7372958403179501	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+568	4941	7372958403638367	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+576	5386	7372958408123724	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+580	5592	7372958410091660	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5592	6415	7372958418387885	question3.exe	270080e7481d5c83
+90	1137	7372963081631698	question3_autogen/timestamp	3ac2cef48b1c57ba
+90	1137	7372963081631698	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+90	1137	7372963081631698	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+90	1137	7372963081631698	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+1154	3332	7372963105996031	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+1141	5091	7372963123648905	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+1138	5180	7372963124553304	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+1158	5319	7372963125925461	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+1146	5838	7372963131074327	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+1149	5901	7372963131646614	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5901	6590	7372963138591507	question3.exe	270080e7481d5c83
+129	761	7372963880808746	question3_autogen/timestamp	3ac2cef48b1c57ba
+129	761	7372963880808746	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+129	761	7372963880808746	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+129	761	7372963880808746	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+807	2944	7372963902681128	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+786	4903	7372963922257810	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+780	4971	7372963922914887	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+815	5153	7372963924746602	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+793	5473	7372963927964764	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+799	5610	7372963929198210	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5611	6527	7372963938439856	question3.exe	270080e7481d5c83
+126	653	7373922486630345	question3_autogen/timestamp	3ac2cef48b1c57ba
+126	653	7373922486630345	question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+126	653	7373922486630345	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/timestamp	3ac2cef48b1c57ba
+126	653	7373922486630345	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 1/Question3/build-question3-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question3_autogen/mocs_compilation.cpp	3ac2cef48b1c57ba
+681	2752	7373922507603904	CMakeFiles/question3.dir/album.cpp.obj	dd703df564a421b8
+669	4807	7373922528152124	CMakeFiles/question3.dir/main.cpp.obj	e2436b33df70257e
+665	4810	7373922528163590	CMakeFiles/question3.dir/question3_autogen/mocs_compilation.cpp.obj	7ec042ac637d08a4
+685	4914	7373922529192898	CMakeFiles/question3.dir/ratingdelegate.cpp.obj	8ad699564b7023b4
+673	5397	7373922534049118	CMakeFiles/question3.dir/mainwindow.cpp.obj	ef9da7d69b1eb72f
+677	5517	7373922535141324	CMakeFiles/question3.dir/musicmodel.cpp.obj	89b21ce3f364712a
+5518	6585	7373922545848261	question3.exe	270080e7481d5c83

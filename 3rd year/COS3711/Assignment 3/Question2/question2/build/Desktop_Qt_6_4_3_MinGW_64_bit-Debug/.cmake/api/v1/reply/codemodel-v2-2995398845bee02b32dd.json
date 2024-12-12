@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4d0247b2384c38595a5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "question2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "question2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-question2-Debug-1b576895246abaf9141f.json",
+					"name" : "question2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "question2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-question2_autogen-Debug-4c3e2cbea333fb9b0226.json",
+					"name" : "question2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "question2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-question2_autogen_timestamp_deps-Debug-f6c6aeacdd62d23c0e00.json",
+					"name" : "question2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

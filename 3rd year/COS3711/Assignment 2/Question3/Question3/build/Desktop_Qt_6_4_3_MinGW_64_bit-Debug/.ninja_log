@@ -1,0 +1,81 @@
+# ninja log v5
+9	1147	7438787550077441	Question3_autogen/timestamp	586bf9d8cd881368
+9	1147	7438787550077441	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+9	1147	7438787550077441	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+9	1147	7438787550077441	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+1166	4476	7438787584069928	CMakeFiles/Question3.dir/registration.cpp.obj	cea3d08596f777cb
+1177	4990	7438787589240623	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	2d5017882050e48e
+1170	5810	7438787597609141	CMakeFiles/Question3.dir/registrationlist.cpp.obj	6fddbd4cf2d21cb5
+1155	8303	7438787622567767	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	96e463e734cb8f71
+1185	5904	7438787598597932	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	6221c2dad867951a
+1162	6749	7438787606993581	CMakeFiles/Question3.dir/MainWindow.cpp.obj	fed794d38c532cd0
+1158	7751	7438787617069678	CMakeFiles/Question3.dir/main.cpp.obj	566db890ae3ab0fb
+8303	9090	7438787630370852	Question3.exe	d7300e772d642e13
+31	1363	7438804434110122	Question3_autogen/timestamp	586bf9d8cd881368
+31	1363	7438804434110122	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+31	1363	7438804434110122	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+31	1363	7438804434110122	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+1387	9711	7438804518742291	CMakeFiles/Question3.dir/registration.cpp.obj	dda443ea79ec3a7d
+1415	10085	7438804522398277	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	7633bbc439d8aa39
+1399	10390	7438804525818434	CMakeFiles/Question3.dir/registrationlist.cpp.obj	56feee248dababba
+1431	11077	7438804532666518	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	430ccd7ec866458a
+1373	12790	7438804549852570	CMakeFiles/Question3.dir/main.cpp.obj	1825702d2acec45
+1366	12922	7438804551194781	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	dc78d3fd7b6f7757
+31	237	7438804423727564	Question3_autogen/timestamp	586bf9d8cd881368
+31	237	7438804423727564	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+31	237	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+31	237	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+264	7153	7438804860707480	CMakeFiles/Question3.dir/registration.cpp.obj	dda443ea79ec3a7d
+268	9129	7438804880733066	CMakeFiles/Question3.dir/registrationlist.cpp.obj	56feee248dababba
+301	10308	7438804892523560	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	430ccd7ec866458a
+281	10725	7438804896585028	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	7633bbc439d8aa39
+257	13298	7438804922557839	CMakeFiles/Question3.dir/main.cpp.obj	1825702d2acec45
+253	13300	7438804922532769	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	dc78d3fd7b6f7757
+78	601	7438804423727564	Question3_autogen/timestamp	586bf9d8cd881368
+78	601	7438804423727564	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+78	601	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+78	601	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+793	11792	7438805393859606	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	430ccd7ec866458a
+663	11960	7438805395207911	CMakeFiles/Question3.dir/registration.cpp.obj	dda443ea79ec3a7d
+692	12620	7438805402492054	CMakeFiles/Question3.dir/registrationlist.cpp.obj	56feee248dababba
+771	13004	7438805406239498	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	7633bbc439d8aa39
+643	13446	7438805410797545	CMakeFiles/Question3.dir/main.cpp.obj	1825702d2acec45
+636	14859	7438805424944930	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	dc78d3fd7b6f7757
+651	15145	7438805427793546	CMakeFiles/Question3.dir/MainWindow.cpp.obj	3a4f364b4c87d420
+15145	16043	7438805436677202	Question3.exe	4df484b955f985a2
+26	180	7438804423727564	Question3_autogen/timestamp	586bf9d8cd881368
+26	180	7438804423727564	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+26	180	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+26	180	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+202	3030	7438805760711331	CMakeFiles/Question3.dir/registration.cpp.obj	dda443ea79ec3a7d
+206	3323	7438805763714038	CMakeFiles/Question3.dir/registrationlist.cpp.obj	56feee248dababba
+209	3483	7438805765413546	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	7633bbc439d8aa39
+219	3634	7438805766959105	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	430ccd7ec866458a
+196	4319	7438805773827768	CMakeFiles/Question3.dir/main.cpp.obj	1825702d2acec45
+193	4407	7438805774706720	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	dc78d3fd7b6f7757
+199	4742	7438805778036907	CMakeFiles/Question3.dir/MainWindow.cpp.obj	3a4f364b4c87d420
+4742	5231	7438805782874691	Question3.exe	4df484b955f985a2
+47	1272	7438814938021333	Question3_autogen/timestamp	586bf9d8cd881368
+47	1272	7438814938021333	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+47	1272	7438814938021333	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+47	1272	7438814938021333	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+1294	8006	7438815006648454	CMakeFiles/Question3.dir/registration.cpp.obj	dda443ea79ec3a7d
+1301	8222	7438815009177134	CMakeFiles/Question3.dir/registrationlist.cpp.obj	56feee248dababba
+1309	8940	7438815016098876	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	7633bbc439d8aa39
+1329	9123	7438815018005205	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	430ccd7ec866458a
+1281	10631	7438815033364664	CMakeFiles/Question3.dir/main.cpp.obj	1825702d2acec45
+1274	10664	7438815033690878	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	dc78d3fd7b6f7757
+1287	11069	7438815037749478	CMakeFiles/Question3.dir/MainWindow.cpp.obj	3a4f364b4c87d420
+11070	11586	7438815042864228	Question3.exe	4df484b955f985a2
+26	176	7438804423727564	Question3_autogen/timestamp	586bf9d8cd881368
+26	176	7438804423727564	Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+26	176	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/timestamp	586bf9d8cd881368
+26	176	7438804423727564	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 2/Question3/Question3/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/Question3_autogen/mocs_compilation.cpp	586bf9d8cd881368
+196	3472	7438815165366493	CMakeFiles/Question3.dir/registration.cpp.obj	dda443ea79ec3a7d
+200	3953	7438815170414366	CMakeFiles/Question3.dir/registrationlist.cpp.obj	56feee248dababba
+203	4350	7438815174314176	CMakeFiles/Question3.dir/registrationlistwriter.cpp.obj	7633bbc439d8aa39
+208	4484	7438815175755211	CMakeFiles/Question3.dir/registrationlistreader.cpp.obj	430ccd7ec866458a
+187	5830	7438815189242305	CMakeFiles/Question3.dir/Question3_autogen/mocs_compilation.cpp.obj	dc78d3fd7b6f7757
+190	5874	7438815189685723	CMakeFiles/Question3.dir/main.cpp.obj	1825702d2acec45
+193	6518	7438815196123364	CMakeFiles/Question3.dir/MainWindow.cpp.obj	3a4f364b4c87d420
+6518	7057	7438815201466459	Question3.exe	4df484b955f985a2

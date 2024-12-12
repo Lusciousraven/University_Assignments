@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1661956959 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q7\question7\main.cpp
+	<iostream>
+	<fstream>
+	"Address.h"
+	<string>
+	<array>
+
+1661892524 c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q7\question7\include\address.h
+	<iostream>
+
+1661950361 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q7\question7\src\address.cpp
+	"Address.h"
+

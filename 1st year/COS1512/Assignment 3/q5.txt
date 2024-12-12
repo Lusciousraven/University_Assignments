@@ -1,0 +1,154 @@
+#include <iostream>
+using namespace std;
+class Money
+{
+public:
+
+Money(); // default constructor
+
+Money(int r, int c); // constructor
+
+~Money(); // destructor
+
+int theRands() const;
+
+int theCents() const;
+
+Money Plus(Money m);
+
+Money operator+ (Money & m);
+
+//method 1
+bool GreaterThan(Money m);
+//method 2
+//friend bool operator >(Money m1,Money m2)
+//{
+  //  return ((100*m1.rands + m1.cents) > (100*m2.rands + m2.cents));
+//}
+//method 3
+//bool operator >(Money m) const;
+
+
+
+
+private:
+int rands;
+int cents;
+
+
+
+
+
+friend ostream &operator<<(ostream &ocout, Money &m) // friend functiom
+{
+    if (m.theCents() < 10)
+ ocout << "R" << m.theRands() << ".0" << m.theCents() ;
+ else
+ ocout << "R" << m.theRands() << "." << m.theCents() ;
+ return ocout;
+}
+
+
+};
+
+Money::Money()
+{
+ rands = 0;
+ cents = 0;
+}
+
+
+Money::Money(int r, int c)
+{
+ rands = r;
+ cents = c;
+}
+
+
+Money::~Money()
+{
+}
+
+
+int Money::theRands() const
+{
+ return rands;
+}
+
+
+int Money::theCents() const
+{
+ return cents;
+}
+
+Money Money::Plus(Money m)
+{
+    Money sum;
+    int i;
+
+    i = (cents + m.cents) + (100 * (rands + m.rands ));
+    sum.rands = i / 100;
+    sum.cents = i % 100;
+    return sum;
+}
+
+Money Money::operator+ (Money &m)
+{
+    Money sum;
+    int i;
+
+    i = (cents + m.cents) + (100 * (rands + m.rands ));
+    sum.rands = i / 100;
+    sum.cents = i % 100;
+    return sum;
+}
+//method 3
+//bool Money::operator >(Money m) const
+//{
+  //  ((100*rands + cents) > (100*m.theRands() + m.theCents()));
+//}
+bool Money::GreaterThan(Money m)
+{
+     ((100*rands + cents) > (100*m.theRands() + m.theCents()));
+
+}
+
+
+
+
+
+
+int main()
+{
+Money m1;
+Money m2(15,90);
+Money m3(5,15);
+m1 = m2.Plus(m3);
+Money mi = m1.Plus(m2);
+
+cout << m1 << " + " << m2 << " gives " << mi << endl;
+
+m1 = m2 + m3;
+cout << m2 << " + " << m3 << " gives " << m1 << endl;
+
+
+//if (m2.GreaterThan(m1))
+
+//cout << m2 << " is less than " << m1 << endl;
+
+//else
+
+//cout << m2 << " is greater than " << m1 << endl;
+
+
+//5i) method 1
+if (m1.GreaterThan(m2))
+cout << m1 << " is greater than " << m2 << endl;
+else
+cout << m1 << " is less than " << m2 << endl;
+
+
+
+
+return 0;
+}

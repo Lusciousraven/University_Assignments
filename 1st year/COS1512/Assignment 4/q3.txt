@@ -1,0 +1,223 @@
+#include <iostream>
+#include<string>
+
+
+using namespace std;
+
+
+class Marks
+{
+
+public:
+ Marks();
+ Marks (string name, string number, int asg1, int asg2, int asg3, double test);
+ double calcMark() const;
+
+ string getName() const;
+ //void setName(string sName);
+
+ string getNumber() const;
+ //void setNumber(string sNumber);
+
+ //void setTestmark(double iMark);
+ double getTestmark() const;
+
+ //void assignmentMarks(double a,double b,double c);
+ double getassignmentMarks()const;
+
+
+
+private:
+ string stdtName;
+ string stdNumber;
+ int assignments [3];
+ double testMark;
+
+};
+
+Marks::Marks()
+{
+    stdtName = "Eric";
+    stdNumber = "654653176 ";
+    assignments[0] = 67;
+    assignments[1] = 74;
+    assignments[2] = 60;
+    testMark = 77;
+
+}
+
+
+Marks::Marks(string name, string number, int asg1, int asg2, int asg3, double test)
+
+{
+    stdtName = name;
+    stdNumber = number;
+    assignments[0] = asg1;
+    assignments[1] = asg2;
+    assignments[2] = asg3;
+    testMark = test;
+}
+
+
+double Marks::calcMark() const
+{
+    return testMark;
+}
+
+
+void Marks::setName(string sName)
+{
+ stdtName = sName;
+}
+
+
+string Marks::getName() const
+{
+ return stdtName;
+}
+
+void Marks::setNumber(string sNumber)
+{
+ stdNumber = sNumber;
+}
+
+
+string Marks::getNumber() const
+{
+ return stdNumber;
+}
+
+void Marks::setTestmark(double iMark)
+{
+ testMark = iMark;
+}
+
+
+double Marks::getTestmark() const
+{
+ return testMark;
+}
+
+
+
+void Marks::assignmentMarks(double a,double b,double c)
+{
+  //double aMarks;
+
+  a = assignments[0];
+  b = assignments[1];
+  c = assignments[2];
+  //aMarks = (a+b+c) / 3;
+}
+
+double Marks:: getassignmentMarks() const
+{
+    double i;
+
+    i = (assignments[0] + assignments[1] + assignments[2]);
+    i = i/3.0;
+    return i;
+
+}
+
+
+////
+////
+class FinalMark : public Marks
+{
+
+public:
+ FinalMark();
+ FinalMark (string name, string number, int asg1, int asg2, int asg3, double test, double exMark);
+ double calcMark() const;
+ double getexamMark() const;
+ void setexamMark(double iEmark);///
+
+private:
+   double eMark;
+
+
+};
+
+
+FinalMark::FinalMark():Marks()
+{
+
+}
+
+FinalMark::FinalMark(string name, string number, int asg1, int asg2, int asg3, double test, double exMark)
+:Marks(name, number, asg1, asg2, asg3, test), eMark(exMark)
+{
+
+}
+
+void FinalMark::setexamMark(double iEmark)
+{
+ eMark = iEmark;
+}
+
+double FinalMark::getexamMark() const
+{
+ return eMark;
+}
+
+double FinalMark::calcMark() const
+{
+    double asgMarks, test, exam, fmark;
+
+    test = getTestmark();
+    test = test * (20/100);
+    asgMarks = (Marks::getassignmentMarks())/3.0;
+    asgMarks = asgMarks * (10/100);
+    exam = getexamMark();
+    exam = exam * (70/100);
+
+    fmark = test + asgMarks + exam;
+
+    return fmark;
+}
+
+
+ int main()
+ {
+
+
+    Marks marks;
+
+    cout<< marks.getName() << " " << marks.getNumber() << "has got "<<marks.calcMark() << " marks " << endl;
+
+
+
+    FinalMark myMark;
+
+    double l,m;
+    double i,j,k;
+
+    cout << "enter marks: " << endl;
+    cin >> i;
+    cin >> j;
+    cin >> k;
+    cin >> l;
+    cin >> m;
+
+
+
+
+    myMark.setTestmark(l);
+    myMark.setexamMark(m);
+    myMark.assignmentMarks(1,2,3);
+
+
+    cout << myMark.getassignmentMarks() << endl;
+    cout << myMark.getTestmark() << endl;
+    cout << myMark.getexamMark() << endl;
+
+    //cout << myMark.calcMark() << endl;
+
+    //parameterized FinalMark object
+    //FinalMark newMark("Tom", "std101", 67, 89, 80, 95.1, 90);
+    //cout<<newMark.getName()<<" has net score of "<<newMark.calcMark() << " marks";
+
+
+     return 0;
+ }

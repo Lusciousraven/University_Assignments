@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1661961581 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q6b\question6b\main.cpp
+	<iostream>
+
+1661960515 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q6b\question6b\src\money.cpp
+	"Money.h"
+
+1661960317 c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q6b\question6b\include\money.h
+	<iostream>
+

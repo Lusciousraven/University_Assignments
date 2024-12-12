@@ -1,0 +1,61 @@
+#include <iostream>
+
+using namespace std;
+
+int getScore()
+{float testScore1,testScore2,testScore3,testScore4,testScore5;
+
+      cout<<"Enter test score";
+        cin>>testScore1;
+        cout<<endl;
+        cout<<"Enter test score";
+       cin>>testScore2;
+        cout<<endl;
+        cout<<"Enter test score";
+        cin>>testScore3;
+        cout<<endl;
+        cout<<"Enter test score";
+        cin>>testScore4;
+        cout<<endl;
+        cout<<"Enter test score";
+        cin>>testScore5;
+        cout<<endl;
+         while (testScore1 < 0 || testScore1 > 100 && testScore2 < 0 || testScore2 > 100 && testScore3 < 0 || testScore3 > 100 &&
+           testScore4 < 0 || testScore4 > 100 && testScore5 < 0 || testScore5 > 100)
+    {
+        cout << "You have entered an invalid number\n";
+        cout << "Please enter a number from 0-100 for each test score: ";
+        cin >> testScore1 >> testScore2 >> testScore3 >> testScore4 >> testScore5;
+    }
+
+}
+
+    int findLowest(float &testScore1,float &testScore2,float &testScore3,float &testScore4,float &testScore5)
+{   int lowest=100;
+
+    if(testScore1<lowest)
+        lowest = testScore1;
+    if(testScore2<lowest)
+        lowest = testScore2;
+        if(testScore3<lowest)
+        lowest = testScore3;
+        if(testScore4<lowest)
+        lowest = testScore4;
+        if(testScore5<lowest)
+        lowest = testScore5;
+
+return lowest;
+
+
+}
+
+
+int main
+
+{
+    float testScore1,testScore2,testScore3,testScore4,testScore5;
+
+       getScore();
+    findLowest(testScore1,testScore2,testScore3,testScore4,testScore5);
+    return 0;
+}

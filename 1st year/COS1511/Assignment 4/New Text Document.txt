@@ -1,0 +1,357 @@
+#include <string>
+
+#include <iostream>
+using namespace std;
+
+//Array Declaration.
+string flight_1[]={"A1","A2","A3","A4","A5","A6","B1","B2","B3","B4","B5","B6","C1","C2","C3","C4","C5","C6","D1","D2","D3","D4","D5","D6","E1","E2","E3","E4","E5","E6","F1","F1","F3","F4","F5","F6","G1","G2","G3","G4","G5","G6","H1","H2","H3","H4","H5","H6","I1","I2"};
+string flight_2[]={"A1","A2","A3","A4","A5","A6","B1","B2","B3","B4","B5","B6","C1","C2","C3","C4","C5","C6","D1","D2","D3","D4","D5","D6","E1","E2","E3","E4","E5","E6","F1","F1","F3","F4","F5","F6","G1","G2","G3","G4","G5","G6","H1","H2","H3","H4","H5","H6","I1","I2"};
+string flight_3[]={"A1","A2","A3","A4","A5","A6","B1","B2","B3","B4","B5","B6","C1","C2","C3","C4","C5","C6","D1","D2","D3","D4","D5","D6","E1","E2","E3","E4","E5","E6","F1","F1","F3","F4","F5","F6","G1","G2","G3","G4","G5","G6","H1","H2","H3","H4","H5","H6","I1","I2"};
+string flight_4[]={"A1","A2","A3","A4","A5","A6","B1","B2","B3","B4","B5","B6","C1","C2","C3","C4","C5","C6","D1","D2","D3","D4","D5","D6","E1","E2","E3","E4","E5","E6","F1","F1","F3","F4","F5","F6","G1","G2","G3","G4","G5","G6","H1","H2","H3","H4","H5","H6","I1","I2"};
+string flight_5[]={"A1","A2","A3","A4","A5","A6","B1","B2","B3","B4","B5","B6","C1","C2","C3","C4","C5","C6","D1","D2","D3","D4","D5","D6","E1","E2","E3","E4","E5","E6","F1","F1","F3","F4","F5","F6","G1","G2","G3","G4","G5","G6","H1","H2","H3","H4","H5","H6","I1","I2"};
+
+int ticketdisplay(int option,string seatchoice,string name,string surname,string D,string A)
+{//function to generate ticket details.
+    string seatclass;
+
+    string price;
+    if (seatchoice == "A1" || seatchoice == "A2" || seatchoice == "A3" || seatchoice == "A4" || seatchoice == "A5" || seatchoice == "A6" || seatchoice == "B1" || seatchoice == "B2" || seatchoice == "B3" || seatchoice == "B4" || seatchoice == "B5" || seatchoice == "B6" || seatchoice == "C1" || seatchoice == "C2" || seatchoice == "C3" || seatchoice == "C4" || seatchoice == "C5" || seatchoice == "C6" || seatchoice == "D1" || seatchoice == "D2" || seatchoice == "D3" || seatchoice == "D4" || seatchoice == "D5" || seatchoice == "D6")
+   {
+       seatclass = "First Class";
+       price = "1920.00";
+   }
+    else
+   {
+       seatclass = "Economy Class";
+       price = "1600.00";
+   }
+
+
+
+    cout <<"########################"<<endl;
+    cout <<"Travel Ticket for Flight"<<endl;
+    cout <<"########################"<<endl;
+    cout <<"Name        :"+name+" "+surname+"              Travel class   :"+seatclass<<endl;
+    cout <<"                                       Seat No.       :"+seatchoice<<endl;
+    cout <<"Departure   :Johannesburg              Departure Time :"+D<<endl;
+    cout <<"Destination :Cape Town                 Arrival Time   :"+A<<endl;
+    cout <<"************************"<<endl;
+    cout <<"Amount      :R"+price+"  Thank you for booking with COS1511."<<endl;
+    cout <<"************************"<<endl;
+
+}
+
+int ValidateTime(int i)
+{//function for time validation.
+   int validity;
+   if (i <=5 && i>=1){
+    validity = 1;
+   }
+   else{
+    validity = 0;
+   }
+   return validity;
+}
+
+int TimeOptions()
+{//function for time selection.
+    int option;
+    cout<< "    Depart     Arrive"<<endl;
+    cout<< "1.  7:00       9:30"<<endl;
+    cout<< "2.  9:00       11:30"<<endl;
+    cout<< "3.  11:00      13:30"<<endl;
+    cout<< "4.  13:00      15:30"<<endl;
+    cout<< "5.  15:00      17:30"<<endl;
+    cout<< "Please select a time using options 1-5.  :";
+    cin>>option;
+    return option;
+}
+
+int updateseat(string seatchoice,int o)
+{//function to update take seats to "**".
+    int counter = 0;
+
+    if (o == 1)
+    {
+       while (flight_1[counter] != seatchoice)
+       {
+         counter = counter + 1;
+       }
+       flight_1[counter] = "**";
+       cout <<"|" +flight_1[0]+ "|"+flight_1[1]+ "|"+flight_1[2]+ "|"+"----"+"|"+flight_1[3]+ "|"+flight_1[4]+ "|"+flight_1[5]+ "|" <<endl;
+       cout <<"|" +flight_1[6]+ "|"+flight_1[7]+ "|"+flight_1[8]+ "|"+"----"+"|"+flight_1[9]+ "|"+flight_1[10]+ "|"+flight_1[11]+ "|" <<endl;
+       cout <<"|" +flight_1[12]+ "|"+flight_1[13]+ "|"+flight_1[14]+ "|"+"----"+"|"+flight_1[15]+ "|"+flight_1[16]+ "|"+flight_1[17]+ "|" <<endl;
+       cout <<"|" +flight_1[18]+ "|"+flight_1[19]+ "|"+flight_1[20]+ "|"+"----"+"|"+flight_1[21]+ "|"+flight_1[22]+ "|"+flight_1[23]+ "|" <<endl;
+       cout <<"|" +flight_1[24]+ "|"+flight_1[25]+ "|"+flight_1[26]+ "|"+"----"+"|"+flight_1[27]+ "|"+flight_1[28]+ "|"+flight_1[29]+ "|" <<endl;
+       cout <<"|" +flight_1[30]+ "|"+flight_1[31]+ "|"+flight_1[32]+ "|"+"----"+"|"+flight_1[33]+ "|"+flight_1[34]+ "|"+flight_1[35]+ "|" <<endl;
+       cout <<"|" +flight_1[36]+ "|"+flight_1[37]+ "|"+flight_1[38]+ "|"+"----"+"|"+flight_1[39]+ "|"+flight_1[40]+ "|"+flight_1[41]+ "|" <<endl;
+       cout <<"|" +flight_1[42]+ "|"+flight_1[43]+ "|"+flight_1[44]+ "|"+"----"+"|"+flight_1[45]+ "|"+flight_1[46]+ "|"+flight_1[47]+ "|" <<endl;
+       cout <<"|" +flight_1[48]+ "|"+flight_1[49]+ "|"<<endl;
+       cout <<""<<endl;
+       cout <<""<<endl;
+       return counter;
+    }
+
+
+    if (o == 2)
+    {
+       while (flight_2[counter] != seatchoice)
+       {
+         counter = counter + 1;
+       }
+       flight_2[counter] = "**";
+       cout <<"|" +flight_2[0]+ "|"+flight_2[1]+ "|"+flight_2[2]+ "|"+"----"+"|"+flight_2[3]+ "|"+flight_2[4]+ "|"+flight_2[5]+ "|" <<endl;
+       cout <<"|" +flight_2[6]+ "|"+flight_2[7]+ "|"+flight_2[8]+ "|"+"----"+"|"+flight_1[9]+ "|"+flight_2[10]+ "|"+flight_2[11]+ "|" <<endl;
+       cout <<"|" +flight_2[12]+ "|"+flight_2[13]+ "|"+flight_2[14]+ "|"+"----"+"|"+flight_2[15]+ "|"+flight_2[16]+ "|"+flight_2[17]+ "|" <<endl;
+       cout <<"|" +flight_2[18]+ "|"+flight_2[19]+ "|"+flight_2[20]+ "|"+"----"+"|"+flight_2[21]+ "|"+flight_2[22]+ "|"+flight_2[23]+ "|" <<endl;
+       cout <<"|" +flight_2[24]+ "|"+flight_2[25]+ "|"+flight_2[26]+ "|"+"----"+"|"+flight_2[27]+ "|"+flight_2[28]+ "|"+flight_2[29]+ "|" <<endl;
+       cout <<"|" +flight_2[30]+ "|"+flight_2[31]+ "|"+flight_2[32]+ "|"+"----"+"|"+flight_2[33]+ "|"+flight_2[34]+ "|"+flight_2[35]+ "|" <<endl;
+       cout <<"|" +flight_2[36]+ "|"+flight_2[37]+ "|"+flight_2[38]+ "|"+"----"+"|"+flight_2[39]+ "|"+flight_2[40]+ "|"+flight_2[41]+ "|" <<endl;
+       cout <<"|" +flight_2[42]+ "|"+flight_2[43]+ "|"+flight_2[44]+ "|"+"----"+"|"+flight_2[45]+ "|"+flight_2[46]+ "|"+flight_2[47]+ "|" <<endl;
+       cout <<"|" +flight_2[48]+ "|"+flight_2[49]+ "|"<<endl;
+       cout<<""<<endl;
+       cout<<""<<endl;
+       return counter;
+    }
+
+
+    if (o == 3)
+    {
+       while (flight_3[counter] != seatchoice)
+       {
+         counter = counter + 1;
+       }
+       flight_3[counter] = "**";
+       cout <<"|" +flight_3[0]+ "|"+flight_3[1]+ "|"+flight_3[2]+ "|"+"----"+"|"+flight_3[3]+ "|"+flight_3[4]+ "|"+flight_3[5]+ "|" <<endl;
+       cout <<"|" +flight_3[6]+ "|"+flight_3[7]+ "|"+flight_3[8]+ "|"+"----"+"|"+flight_3[9]+ "|"+flight_3[10]+ "|"+flight_3[11]+ "|" <<endl;
+       cout <<"|" +flight_3[12]+ "|"+flight_3[13]+ "|"+flight_3[14]+ "|"+"----"+"|"+flight_3[15]+ "|"+flight_3[16]+ "|"+flight_3[17]+ "|" <<endl;
+       cout <<"|" +flight_3[18]+ "|"+flight_3[19]+ "|"+flight_3[20]+ "|"+"----"+"|"+flight_3[21]+ "|"+flight_3[22]+ "|"+flight_3[23]+ "|" <<endl;
+       cout <<"|" +flight_3[24]+ "|"+flight_3[25]+ "|"+flight_3[26]+ "|"+"----"+"|"+flight_3[27]+ "|"+flight_3[28]+ "|"+flight_3[29]+ "|" <<endl;
+       cout <<"|" +flight_3[30]+ "|"+flight_3[31]+ "|"+flight_3[32]+ "|"+"----"+"|"+flight_3[33]+ "|"+flight_3[34]+ "|"+flight_3[35]+ "|" <<endl;
+       cout <<"|" +flight_3[36]+ "|"+flight_3[37]+ "|"+flight_3[38]+ "|"+"----"+"|"+flight_3[39]+ "|"+flight_3[40]+ "|"+flight_3[41]+ "|" <<endl;
+       cout <<"|" +flight_3[42]+ "|"+flight_3[43]+ "|"+flight_3[44]+ "|"+"----"+"|"+flight_3[45]+ "|"+flight_3[46]+ "|"+flight_3[47]+ "|" <<endl;
+       cout <<"|" +flight_3[48]+ "|"+flight_3[49]+ "|"<<endl;
+       cout<<""<<endl;
+       cout<<""<<endl;
+       return counter;
+    }
+
+
+    if (o == 4)
+    {
+       while (flight_4[counter] != seatchoice)
+       {
+         counter = counter + 1;
+       }
+       flight_4[counter] = "**";
+       cout <<"|" +flight_4[0]+ "|"+flight_4[1]+ "|"+flight_4[2]+ "|"+"----"+"|"+flight_4[3]+ "|"+flight_4[4]+ "|"+flight_4[5]+ "|" <<endl;
+       cout <<"|" +flight_4[6]+ "|"+flight_4[7]+ "|"+flight_4[8]+ "|"+"----"+"|"+flight_4[9]+ "|"+flight_4[10]+ "|"+flight_4[11]+ "|" <<endl;
+       cout <<"|" +flight_4[12]+ "|"+flight_4[13]+ "|"+flight_4[14]+ "|"+"----"+"|"+flight_4[15]+ "|"+flight_4[16]+ "|"+flight_4[17]+ "|" <<endl;
+       cout <<"|" +flight_4[18]+ "|"+flight_4[19]+ "|"+flight_4[20]+ "|"+"----"+"|"+flight_4[21]+ "|"+flight_4[22]+ "|"+flight_4[23]+ "|" <<endl;
+       cout <<"|" +flight_4[24]+ "|"+flight_4[25]+ "|"+flight_4[26]+ "|"+"----"+"|"+flight_4[27]+ "|"+flight_4[28]+ "|"+flight_4[29]+ "|" <<endl;
+       cout <<"|" +flight_4[30]+ "|"+flight_4[31]+ "|"+flight_4[32]+ "|"+"----"+"|"+flight_4[33]+ "|"+flight_4[34]+ "|"+flight_4[35]+ "|" <<endl;
+       cout <<"|" +flight_4[36]+ "|"+flight_4[37]+ "|"+flight_4[38]+ "|"+"----"+"|"+flight_4[39]+ "|"+flight_4[40]+ "|"+flight_4[41]+ "|" <<endl;
+       cout <<"|" +flight_4[42]+ "|"+flight_4[43]+ "|"+flight_4[44]+ "|"+"----"+"|"+flight_4[45]+ "|"+flight_4[46]+ "|"+flight_4[47]+ "|" <<endl;
+       cout <<"|" +flight_4[48]+ "|"+flight_4[49]+ "|"<<endl;
+       cout<<""<<endl;
+       cout<<""<<endl;
+       return counter;
+    }
+
+
+    if (o == 5)
+    {
+       while (flight_5[counter] != seatchoice)
+       {
+         counter = counter + 1;
+       }
+       flight_5[counter] = "**";
+       cout <<"|" +flight_5[0]+ "|"+flight_5[1]+ "|"+flight_5[2]+ "|"+"----"+"|"+flight_5[3]+ "|"+flight_5[4]+ "|"+flight_5[5]+ "|" <<endl;
+       cout <<"|" +flight_5[6]+ "|"+flight_5[7]+ "|"+flight_5[8]+ "|"+"----"+"|"+flight_5[9]+ "|"+flight_5[10]+ "|"+flight_5[11]+ "|" <<endl;
+       cout <<"|" +flight_5[12]+ "|"+flight_5[13]+ "|"+flight_5[14]+ "|"+"----"+"|"+flight_5[15]+ "|"+flight_5[16]+ "|"+flight_5[17]+ "|" <<endl;
+       cout <<"|" +flight_5[18]+ "|"+flight_5[19]+ "|"+flight_5[20]+ "|"+"----"+"|"+flight_5[21]+ "|"+flight_5[22]+ "|"+flight_5[23]+ "|" <<endl;
+       cout <<"|" +flight_5[24]+ "|"+flight_5[25]+ "|"+flight_5[26]+ "|"+"----"+"|"+flight_5[27]+ "|"+flight_5[28]+ "|"+flight_5[29]+ "|" <<endl;
+       cout <<"|" +flight_5[30]+ "|"+flight_5[31]+ "|"+flight_5[32]+ "|"+"----"+"|"+flight_5[33]+ "|"+flight_5[34]+ "|"+flight_5[35]+ "|" <<endl;
+       cout <<"|" +flight_5[36]+ "|"+flight_5[37]+ "|"+flight_5[38]+ "|"+"----"+"|"+flight_5[39]+ "|"+flight_5[40]+ "|"+flight_5[41]+ "|" <<endl;
+       cout <<"|" +flight_5[42]+ "|"+flight_5[43]+ "|"+flight_5[44]+ "|"+"----"+"|"+flight_5[45]+ "|"+flight_5[46]+ "|"+flight_5[47]+ "|" <<endl;
+       cout <<"|" +flight_5[48]+ "|"+flight_5[49]+ "|"<<endl;
+       cout<<""<<endl;
+       cout<<""<<endl;
+       return counter;
+    }
+
+
+
+}
+
+std::string seating(int option)
+{
+  string k;
+  if (option == 1)
+  {
+   cout<<""<<endl;
+   cout <<"First Class :R1920.00"<<endl;
+   cout <<"|" +flight_1[0]+ "|"+flight_1[1]+ "|"+flight_1[2]+ "|"+"----"+"|"+flight_1[3]+ "|"+flight_1[4]+ "|"+flight_1[5]+ "|" <<endl;
+   cout <<"|" +flight_1[6]+ "|"+flight_1[7]+ "|"+flight_1[8]+ "|"+"----"+"|"+flight_1[9]+ "|"+flight_1[10]+ "|"+flight_1[11]+ "|" <<endl;
+   cout <<"|" +flight_1[12]+ "|"+flight_1[13]+ "|"+flight_1[14]+ "|"+"----"+"|"+flight_1[15]+ "|"+flight_1[16]+ "|"+flight_1[17]+ "|" <<endl;
+   cout <<"|" +flight_1[18]+ "|"+flight_1[19]+ "|"+flight_1[20]+ "|"+"----"+"|"+flight_1[21]+ "|"+flight_1[22]+ "|"+flight_1[23]+ "|" <<endl;
+   cout<<""<<endl;
+   cout << "Economy Class  :R1600.00"<<endl;
+   cout <<"|" +flight_1[24]+ "|"+flight_1[25]+ "|"+flight_1[26]+ "|"+"----"+"|"+flight_1[27]+ "|"+flight_1[28]+ "|"+flight_1[29]+ "|" <<endl;
+   cout <<"|" +flight_1[30]+ "|"+flight_1[31]+ "|"+flight_1[32]+ "|"+"----"+"|"+flight_1[33]+ "|"+flight_1[34]+ "|"+flight_1[35]+ "|" <<endl;
+   cout <<"|" +flight_1[36]+ "|"+flight_1[37]+ "|"+flight_1[38]+ "|"+"----"+"|"+flight_1[39]+ "|"+flight_1[40]+ "|"+flight_1[41]+ "|" <<endl;
+   cout <<"|" +flight_1[42]+ "|"+flight_1[43]+ "|"+flight_1[44]+ "|"+"----"+"|"+flight_1[45]+ "|"+flight_1[46]+ "|"+flight_1[47]+ "|" <<endl;
+   cout <<"|" +flight_1[48]+ "|"+flight_1[49]+ "|"<<endl;
+   cout<<""<<endl;
+
+   cout <<"Please select a seat    :";
+   cin >> k;
+   cout<<""<<endl;
+  }
+
+  if (option == 2)
+  {
+   cout<<""<<endl;
+   cout <<"First Class :R1920.00"<<endl;
+   cout <<"|" +flight_2[0]+ "|"+flight_2[1]+ "|"+flight_2[2]+ "|"+"----"+"|"+flight_2[3]+ "|"+flight_2[4]+ "|"+flight_2[5]+ "|" <<endl;
+   cout <<"|" +flight_2[6]+ "|"+flight_2[7]+ "|"+flight_2[8]+ "|"+"----"+"|"+flight_2[9]+ "|"+flight_2[10]+ "|"+flight_2[11]+ "|" <<endl;
+   cout <<"|" +flight_2[12]+ "|"+flight_2[13]+ "|"+flight_2[14]+ "|"+"----"+"|"+flight_2[15]+ "|"+flight_2[16]+ "|"+flight_2[17]+ "|" <<endl;
+   cout <<"|" +flight_2[18]+ "|"+flight_2[19]+ "|"+flight_2[20]+ "|"+"----"+"|"+flight_2[21]+ "|"+flight_2[22]+ "|"+flight_2[23]+ "|" <<endl;
+   cout<<""<<endl;
+   cout << "Economy Class  :R1600.00"<<endl;
+   cout <<"|" +flight_2[24]+ "|"+flight_2[25]+ "|"+flight_2[26]+ "|"+"----"+"|"+flight_2[27]+ "|"+flight_2[28]+ "|"+flight_2[29]+ "|" <<endl;
+   cout <<"|" +flight_2[30]+ "|"+flight_2[31]+ "|"+flight_2[32]+ "|"+"----"+"|"+flight_2[33]+ "|"+flight_2[34]+ "|"+flight_2[35]+ "|" <<endl;
+   cout <<"|" +flight_2[36]+ "|"+flight_2[37]+ "|"+flight_2[38]+ "|"+"----"+"|"+flight_2[39]+ "|"+flight_2[40]+ "|"+flight_2[41]+ "|" <<endl;
+   cout <<"|" +flight_2[42]+ "|"+flight_2[43]+ "|"+flight_2[44]+ "|"+"----"+"|"+flight_2[45]+ "|"+flight_2[46]+ "|"+flight_2[47]+ "|" <<endl;
+   cout <<"|" +flight_2[48]+ "|"+flight_2[49]+ "|"<<endl;
+   cout<<""<<endl;
+
+   cout <<"Please select a seat    :";
+   cin >> k;
+   cout<<""<<endl;
+  }
+
+  if (option == 3)
+  {
+   cout<<""<<endl;
+   cout <<"First Class :R1920.00"<<endl;
+   cout <<"|" +flight_3[0]+ "|"+flight_3[1]+ "|"+flight_3[2]+ "|"+"----"+"|"+flight_3[3]+ "|"+flight_3[4]+ "|"+flight_3[5]+ "|" <<endl;
+   cout <<"|" +flight_3[6]+ "|"+flight_3[7]+ "|"+flight_3[8]+ "|"+"----"+"|"+flight_3[9]+ "|"+flight_3[10]+ "|"+flight_3[11]+ "|" <<endl;
+   cout <<"|" +flight_3[12]+ "|"+flight_3[13]+ "|"+flight_3[14]+ "|"+"----"+"|"+flight_3[15]+ "|"+flight_3[16]+ "|"+flight_3[17]+ "|" <<endl;
+   cout <<"|" +flight_3[18]+ "|"+flight_3[19]+ "|"+flight_3[20]+ "|"+"----"+"|"+flight_3[21]+ "|"+flight_3[22]+ "|"+flight_3[23]+ "|" <<endl;
+   cout<<""<<endl;
+   cout << "Economy Class  :R1600.00"<<endl;
+   cout <<"|" +flight_3[24]+ "|"+flight_3[25]+ "|"+flight_3[26]+ "|"+"----"+"|"+flight_3[27]+ "|"+flight_3[28]+ "|"+flight_3[29]+ "|" <<endl;
+   cout <<"|" +flight_3[30]+ "|"+flight_3[31]+ "|"+flight_3[32]+ "|"+"----"+"|"+flight_3[33]+ "|"+flight_3[34]+ "|"+flight_3[35]+ "|" <<endl;
+   cout <<"|" +flight_3[36]+ "|"+flight_3[37]+ "|"+flight_3[38]+ "|"+"----"+"|"+flight_3[39]+ "|"+flight_3[40]+ "|"+flight_3[41]+ "|" <<endl;
+   cout <<"|" +flight_3[42]+ "|"+flight_3[43]+ "|"+flight_3[44]+ "|"+"----"+"|"+flight_3[45]+ "|"+flight_3[46]+ "|"+flight_3[47]+ "|" <<endl;
+   cout <<"|" +flight_3[48]+ "|"+flight_3[49]+ "|"<<endl;
+   cout<<""<<endl;
+
+   cout <<"Please select a seat    :";
+   cin >> k;
+   cout<<""<<endl;
+  }
+
+  if (option == 4)
+  {
+   cout<<""<<endl;
+   cout <<"First Class :R1920.00"<<endl;
+   cout <<"|" +flight_4[0]+ "|"+flight_4[1]+ "|"+flight_4[2]+ "|"+"----"+"|"+flight_4[3]+ "|"+flight_4[4]+ "|"+flight_4[5]+ "|" <<endl;
+   cout <<"|" +flight_4[6]+ "|"+flight_4[7]+ "|"+flight_4[8]+ "|"+"----"+"|"+flight_4[9]+ "|"+flight_4[10]+ "|"+flight_4[11]+ "|" <<endl;
+   cout <<"|" +flight_4[12]+ "|"+flight_4[13]+ "|"+flight_4[14]+ "|"+"----"+"|"+flight_4[15]+ "|"+flight_4[16]+ "|"+flight_4[17]+ "|" <<endl;
+   cout <<"|" +flight_4[18]+ "|"+flight_4[19]+ "|"+flight_4[20]+ "|"+"----"+"|"+flight_4[21]+ "|"+flight_4[22]+ "|"+flight_4[23]+ "|" <<endl;
+   cout<<""<<endl;
+   cout << "Economy Class  :R1600.00"<<endl;
+   cout <<"|" +flight_4[24]+ "|"+flight_4[25]+ "|"+flight_4[26]+ "|"+"----"+"|"+flight_4[27]+ "|"+flight_4[28]+ "|"+flight_4[29]+ "|" <<endl;
+   cout <<"|" +flight_4[30]+ "|"+flight_4[31]+ "|"+flight_4[32]+ "|"+"----"+"|"+flight_4[33]+ "|"+flight_4[34]+ "|"+flight_4[35]+ "|" <<endl;
+   cout <<"|" +flight_4[36]+ "|"+flight_4[37]+ "|"+flight_4[38]+ "|"+"----"+"|"+flight_4[39]+ "|"+flight_4[40]+ "|"+flight_4[41]+ "|" <<endl;
+   cout <<"|" +flight_4[42]+ "|"+flight_4[43]+ "|"+flight_4[44]+ "|"+"----"+"|"+flight_4[45]+ "|"+flight_4[46]+ "|"+flight_4[47]+ "|" <<endl;
+   cout <<"|" +flight_4[48]+ "|"+flight_4[49]+ "|"<<endl;
+   cout<<""<<endl;
+
+   cout <<"Please select a seat    :";
+   cin >> k;
+   cout<<""<<endl;
+  }
+
+
+  if (option == 5)
+  {
+
+   cout<<""<<endl;
+   cout <<"First Class :R1920.00"<<endl;
+   cout <<"|" +flight_5[0]+ "|"+flight_5[1]+ "|"+flight_5[2]+ "|"+"----"+"|"+flight_5[3]+ "|"+flight_5[4]+ "|"+flight_5[5]+ "|" <<endl;
+   cout <<"|" +flight_5[6]+ "|"+flight_5[7]+ "|"+flight_5[8]+ "|"+"----"+"|"+flight_5[9]+ "|"+flight_5[10]+ "|"+flight_5[11]+ "|" <<endl;
+   cout <<"|" +flight_5[12]+ "|"+flight_5[13]+ "|"+flight_5[14]+ "|"+"----"+"|"+flight_5[15]+ "|"+flight_5[16]+ "|"+flight_5[17]+ "|" <<endl;
+   cout <<"|" +flight_5[18]+ "|"+flight_5[19]+ "|"+flight_5[20]+ "|"+"----"+"|"+flight_5[21]+ "|"+flight_5[22]+ "|"+flight_5[23]+ "|" <<endl;
+   cout<<""<<endl;
+   cout << "Economy Class  :R1600.00"<<endl;
+   cout <<"|" +flight_5[24]+ "|"+flight_5[25]+ "|"+flight_5[26]+ "|"+"----"+"|"+flight_5[27]+ "|"+flight_5[28]+ "|"+flight_5[29]+ "|" <<endl;
+   cout <<"|" +flight_5[30]+ "|"+flight_5[31]+ "|"+flight_5[32]+ "|"+"----"+"|"+flight_5[33]+ "|"+flight_5[34]+ "|"+flight_5[35]+ "|" <<endl;
+   cout <<"|" +flight_5[36]+ "|"+flight_5[37]+ "|"+flight_5[38]+ "|"+"----"+"|"+flight_5[39]+ "|"+flight_5[40]+ "|"+flight_5[41]+ "|" <<endl;
+   cout <<"|" +flight_5[42]+ "|"+flight_5[43]+ "|"+flight_5[44]+ "|"+"----"+"|"+flight_5[45]+ "|"+flight_5[46]+ "|"+flight_5[47]+ "|" <<endl;
+   cout <<"|" +flight_5[48]+ "|"+flight_5[49]+ "|"<<endl;
+   cout<<""<<endl;
+
+   cout <<"Please select a seat    :";
+   cin >> k;
+   cout<<""<<endl;
+
+
+  }
+ return k;
+}
+
+int main()
+{
+ int valid,Option,NumOfTickets,counter;
+ string name,surname,ArriveTime,DepTime,Seatchoice;
+
+ cout << "Welcome to the COS1511 Flight Booking System."<<endl;
+ cout << "Please input your name.    :";
+ cin  >> name;
+ cout << "Please input your Surname.    :";
+ cin  >> surname;
+
+ Option=TimeOptions();
+ valid=ValidateTime(Option);
+
+ while (valid == 0 )//loops selection if invalid
+ {
+  Option=TimeOptions();
+  valid=ValidateTime(Option);
+ }
+
+ seating(Option) = Seatchoice;
+ updateseat(Seatchoice, Option);
+ cout << Option;
+ cout << Seatchoice;
+
+ if (Option == 1)
+     {
+        DepTime = "7:00";
+        ArriveTime = "9:30";
+     }
+ if (Option == 2)
+     {
+        DepTime = "9:00";
+        ArriveTime = "11:30";
+     }
+ if (Option == 3)
+     {
+       DepTime = "11:00";
+       ArriveTime = "13:30";
+     }
+ if (Option == 4)
+     {
+       DepTime = "13:00";
+       ArriveTime = "15:30";
+     }
+ if (Option == 5)
+    {
+       DepTime = "15:00";
+       ArriveTime = "17:30";
+    }
+
+}

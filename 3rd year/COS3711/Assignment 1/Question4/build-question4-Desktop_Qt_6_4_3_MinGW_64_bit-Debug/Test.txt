@@ -1,0 +1,9 @@
+This is a text file that contains an email address 
+no_one@nowhere.nothing with a phone number 
+as in 111-333-9876
+
+Name: Unknown
+Email: Magslovesme123@cats.com
+Phone: 069-345-123
+
+Yes

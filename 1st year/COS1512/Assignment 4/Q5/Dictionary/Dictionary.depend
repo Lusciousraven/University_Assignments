@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1664218605 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 4\q5\dictionary\main.cpp
+	<iostream>
+	<cstdlib>
+	"Dictionary.h"
+	<vector>
+	<string>
+
+1664193705 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 4\q5\dictionary\src\dictionary.cpp
+	"Dictionary.h"
+	<vector>
+	<iostream>
+	<cstdlib>
+
+1664193705 c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 4\q5\dictionary\include\dictionary.h
+	<vector>
+	<string>
+	<iostream>
+	<cstdlib>
+

@@ -1,0 +1,24 @@
+ #include <iostream>
+ using namespace std;
+ void count(int counter)
+ {
+
+ if (counter == -1)
+ return;
+ else
+ {
+ cout << counter << endl;   //"Calling counter(" <<     ")" <<
+ count(--counter);
+
+ //cout << "counter(" << counter << ") processed "
+ //<< endl;
+
+ return;
+ }
+ }
+ int main()
+ {
+ int i = 3;
+ count(i);
+ return 0;
+ }

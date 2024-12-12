@@ -1,0 +1,101 @@
+# ninja log v5
+182	2304	7476180214211894	question2_autogen/timestamp	ad54c212b12893a1
+17868	18884	7476181989790397	question2.exe	e570f8c4ea419859
+182	2304	7476180214211894	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+2514	16470	7476181965558053	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+182	2304	7476180214211894	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+2895	16743	7476181968317556	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+182	2304	7476180214211894	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+2687	14187	7476181942783654	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+2583	16803	7476181969096426	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+2473	17868	7476181979768726	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+198	5945	7476183218196643	question2_autogen/timestamp	ad54c212b12893a1
+198	5945	7476183218196643	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+198	5945	7476183218196643	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+198	5945	7476183218196643	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+6187	16394	7476183340885356	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+6284	18904	7476183366632420	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+6074	19039	7476183368142756	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+6008	19248	7476183370095429	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+5949	21949	7476183397517593	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+103	2629	7476184110845588	question2_autogen/timestamp	ad54c212b12893a1
+103	2629	7476184110845588	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+103	2629	7476184110845588	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+103	2629	7476184110845588	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+2683	10926	7476184196375394	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+2643	13361	7476184220873397	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+2653	13389	7476184220969114	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+2695	13403	7476184221242784	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+2632	15394	7476184241248698	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+2720	15701	7476184244332876	CMakeFiles/question2.dir/bookinput.cpp.obj	b9233ad027be5d50
+156	4435	7476184455937924	question2_autogen/timestamp	ad54c212b12893a1
+156	4435	7476184455937924	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+156	4435	7476184455937924	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+156	4435	7476184455937924	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+4617	15648	7476184572112591	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+4454	17386	7476184589776400	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+4629	18269	7476184598671585	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+4535	18374	7476184599663916	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+4438	20773	7476184623711079	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+159	4795	7476184867966522	question2_autogen/timestamp	ad54c212b12893a1
+159	4795	7476184867966522	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+159	4795	7476184867966522	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+159	4795	7476184867966522	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+4841	14390	7476184967728801	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+4831	16393	7476184987725441	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+4853	16880	7476184992420108	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+4810	17315	7476184997141072	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+4865	18949	7476185013528130	CMakeFiles/question2.dir/bookinput.cpp.obj	b9233ad027be5d50
+4798	19798	7476185021978448	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+102	4267	7476185275103662	question2_autogen/timestamp	ad54c212b12893a1
+102	4267	7476185275103662	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+102	4267	7476185275103662	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+102	4267	7476185275103662	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+4305	13016	7476185372003446	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+4327	14892	7476185390449179	CMakeFiles/question2.dir/bookinput.cpp.obj	b9233ad027be5d50
+4316	15364	7476185395708143	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+4283	15679	7476185398871255	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+4294	15688	7476185398881228	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+4271	16716	7476185409244285	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+21	53	0	CMakeFiles/clean.additional	baedbe210acaa455
+53	64	0	clean	d6542ab91c93f907
+16	40	0	CMakeFiles/clean.additional	baedbe210acaa455
+41	52	0	clean	d6542ab91c93f907
+24	1586	7476186156571531	question2_autogen/timestamp	ad54c212b12893a1
+24	1586	7476186156571531	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+24	1586	7476186156571531	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+24	1586	7476186156571531	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+1618	8310	7476186225926951	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+1638	9546	7476186238223598	CMakeFiles/question2.dir/bookinput.cpp.obj	b9233ad027be5d50
+1628	10554	7476186248471430	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+1597	10871	7476186251630433	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+1608	10942	7476186252370088	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+1589	11803	7476186260969353	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+125	1125	7476186144270705	question2_autogen/timestamp	ad54c212b12893a1
+125	1125	7476186144270705	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+125	1125	7476186144270705	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+125	1125	7476186144270705	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+1221	11682	7476187584707847	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+1499	14142	7476187608421867	CMakeFiles/question2.dir/bookinput.cpp.obj	b9233ad027be5d50
+1233	14495	7476187613312356	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+1197	14926	7476187617660514	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+1209	15235	7476187620768716	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+1182	15871	7476187627091086	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+996	9903	7476189384430992	question2_autogen/timestamp	ad54c212b12893a1
+996	9903	7476189384430992	question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+996	9903	7476189384430992	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/timestamp	ad54c212b12893a1
+996	9903	7476189384430992	C:/Users/Jaymeen/Desktop/Studies&Work/UnisaComputerScience/3rd year/COS3711/Assignment 3/Question2/question2/build/Desktop_Qt_6_4_3_MinGW_64_bit-Debug/question2_autogen/mocs_compilation.cpp	ad54c212b12893a1
+10347	23600	7476189529475164	CMakeFiles/question2.dir/book.cpp.obj	dcca8588695050ee
+10493	24113	7476189534643240	CMakeFiles/question2.dir/bookinput.cpp.obj	b9233ad027be5d50
+10362	25495	7476189548565156	CMakeFiles/question2.dir/bookwriter.cpp.obj	60372ace27e0c2ea
+10215	25520	7476189548888921	CMakeFiles/question2.dir/mainwindow.cpp.obj	d20733b692b90d18
+9981	25601	7476189549767180	CMakeFiles/question2.dir/main.cpp.obj	5cfb5291990461bc
+9909	27575	7476189569361062	CMakeFiles/question2.dir/question2_autogen/mocs_compilation.cpp.obj	f0c70e13de969ef0
+6	27	0	CMakeFiles/clean.additional	baedbe210acaa455
+27	35	0	clean	d6542ab91c93f907
+12	32	0	CMakeFiles/clean.additional	baedbe210acaa455
+32	40	0	clean	d6542ab91c93f907
+9	37	0	CMakeFiles/clean.additional	baedbe210acaa455
+38	49	0	clean	d6542ab91c93f907
+15	40	0	CMakeFiles/clean.additional	baedbe210acaa455
+40	51	0	clean	d6542ab91c93f907

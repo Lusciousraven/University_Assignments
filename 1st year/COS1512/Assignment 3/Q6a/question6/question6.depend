@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1661958607 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q6a\question6\main.cpp
+	<iostream>
+	<fstream>
+	"Movie.h"
+
+1661958783 c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q6a\question6\include\movie.h
+	<iostream>
+	<string>
+	"Movie.h"
+
+1661958121 source:c:\users\jaymeen\desktop\unisacomputerscience\cos1512\assignment 3\q6a\question6\src\movie.cpp
+	"Movie.h"
+	<iostream>
+
